@@ -1,0 +1,31 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.17.0
+2 info using node@v24.17.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm create vite@latest future-dev react
+7 verbose argv "create" "vite@latest" "future-dev" "--template" "react"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-09-04T18_16_07_859Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-09-04T18_16_07_859Z-debug-0.log
+10 warn "react" is being parsed as a normal command line argument.
+11 warn Unknown cli config "--template". This will stop working in the next major version of npm.
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:1174405120 maxSize:293601280 maxEntrySize:146800640
+14 http fetch GET 200 https://registry.npmjs.org/create-vite 771ms (cache miss)
+15 silly packumentCache heap:1174405120 maxSize:293601280 maxEntrySize:146800640
+16 verbose stack Error: canceled
+16 verbose stack     at exec (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/libnpmexec/lib/index.js:304:19)
+16 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+16 verbose stack     at async Init.execCreate (/data/data/com.termux/files/usr/lib/node_modules/npm/lib/commands/init.js:141:5)
+16 verbose stack     at async Init.exec (/data/data/com.termux/files/usr/lib/node_modules/npm/lib/commands/init.js:46:14)
+16 verbose stack     at async Npm.exec (/data/data/com.termux/files/usr/lib/node_modules/npm/lib/npm.js:193:9)
+16 verbose stack     at async module.exports (/data/data/com.termux/files/usr/lib/node_modules/npm/lib/cli/entry.js:67:5)
+17 error canceled
+18 verbose cwd /data/data/com.termux/files/home
+19 verbose os Linux 4.14.180-perf+
+20 verbose node v24.17.0
+21 verbose npm  v11.17.0
+22 verbose exit 1
+23 verbose code 1
+24 error A complete log of this run can be found in: /data/data/com.termux/files/home/.npm/_logs/2026-09-04T18_16_07_859Z-debug-0.log
